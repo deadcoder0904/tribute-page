@@ -1,0 +1,14 @@
+ul {
+  list-style-position: inside;
+}
+
+* > tr > td {
+  border: 1px solid #aaa;
+  padding: 0.2em 0.4em;
+}
+
+user agent stylesheet td,
+th {
+  display: table-cell;
+  vertical-align: inherit;
+}
